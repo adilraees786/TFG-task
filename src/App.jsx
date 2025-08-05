@@ -33,7 +33,7 @@ export default function App() {
       <Routes>
         <Route element={<DashboardLayout />}>
          
-          <Route index element={<Navigate to="/dashboard" replace />} />
+          <Route index element={<Navigate to="/dashboard"/>} />
 
        
           {routelist.map(({ path, element }) => (
